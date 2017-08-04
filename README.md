@@ -1,4 +1,47 @@
-# simple-countdown-timer
+# Simple Countdown Timer
 A JavaScript countdown down that can be easily configured and inserted into an HTML page.
 
-Under devlopment
+The code uses a single JavaScript file to manage the values for the countdown clock, such as days, hours, minutes and seconds.
+It the inserts the value into the indicated ID tag in the HTML file.
+
+The project comes with its own CSS file, but you are welcome to create your own.
+
+## Installation
+
+
+## Customisation Options
+There are two options for inserting the countdown values into a web page:
+
+1. As a single line of code
+2. As individual values in individual ID tags 
+
+### As a Single Line of Code
+The values can be combined into a single statement for insertion into an ID tag as shown in the following example:
+
+    document.getElementById("countdown").innerHTML = days + "d " + hours + "h "  + minutes + "m " + seconds + "s ";
+
+This will insert the string into the HTML element with an ID tag of "countdown".
+You can see this in the code and it is commented out.
+If you wish to use this, remove the "// " characters from the beginning of the line and comment out the other lines of code for inserting the individual items.
+
+### As Individual Values
+This is the default setting in the code and, using the default HTML template, it will output the countdown timer as follows:
+
+	<div class="col-sm-4" id="countdown">
+		<div class="cd-item" id="countdowndays">*{ Value for days will be inserted here }*</div>
+		<div class="cd-item"><div class="cd-divider">:</div></div>
+		<div class="cd-item" id="countdownhours">*{ Value for hours will be inserted here }*</div>
+		<div class="cd-item"><div class="cd-divider">:</div></div>
+		<div class="cd-item" id="countdownmins">*{ Value for minutes will be inserted here }*</div>
+		<div class="cd-item"><div class="cd-divider">:</div></div>
+		<div class="cd-item" id="countdownsecs">*{ Value for seconds will be inserted here }*</div>
+	</div>
+
+The lines of code in the JavaScript file that manage this are:
+
+	document.getElementById("countdowndays").innerHTML = '<div class="cd-num">' + days + '</div> DAYS';
+    document.getElementById("countdownhours").innerHTML = '<div class="cd-num">' + hours + '</div> HRS';
+    document.getElementById("countdownmins").innerHTML = '<div class="cd-num">' + minutes + '</div> MINS';
+    document.getElementById("countdownsecs").innerHTML = '<div class="cd-num">' + seconds + '</div> SECS';
+
+These lines can be commented out by adding a "// " in front of each line if you decide to use the single line of code option

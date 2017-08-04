@@ -1,0 +1,32 @@
+/* countdown timer CSS file */
+
+#countdown {
+	display: table;
+	margin: 0 auto;
+	padding-top: 6px;
+	text-align: center;
+	font-weight: bold;
+	color: rgba(0,46,93,1);
+}
+
+#countdown .cd-item {
+	font-size: 14px;
+	display: table-cell;
+	letter-spacing: 2;
+}
+
+#countdown .cd-item .cd-num {
+	font-size: 30px;
+}
+
+#countdown .cd-item .cd-divider {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#event-date {
+	margin-top: 20px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
