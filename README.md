@@ -14,16 +14,15 @@ The project comes with its own CSS file, but you are welcome to create your own.
 4. Copy the CSS file to your CSS folder or just copy the CSS content to your main CSS file.
 5. Make sure your HTML file has an element with an `id="countdown"`.
 6. If you are using the default individual elements, also make sure your HTML file contacts the following 'divs' inside the element with the ID of 'countdown' like so.:
-
-	<div class="col-sm-4" id="countdown">
-		<div class="cd-item" id="countdowndays"></div>
-		<div class="cd-item"><div class="cd-divider">:</div></div>
-		<div class="cd-item" id="countdownhours"></div>
-		<div class="cd-item"><div class="cd-divider">:</div></div>
-		<div class="cd-item" id="countdownmins"></div>
-		<div class="cd-item"><div class="cd-divider">:</div></div>
-		<div class="cd-item" id="countdownsecs"></div>
-	</div>
+		<div class="col-sm-4" id="countdown">
+			<div class="cd-item" id="countdowndays"></div>
+			<div class="cd-item"><div class="cd-divider">:</div></div>
+			<div class="cd-item" id="countdownhours"></div>
+			<div class="cd-item"><div class="cd-divider">:</div></div>
+			<div class="cd-item" id="countdownmins"></div>
+			<div class="cd-item"><div class="cd-divider">:</div></div>
+			<div class="cd-item" id="countdownsecs"></div>
+		</div>
 
 **Congratulations!** You are ready to configure and see it in action.
 
