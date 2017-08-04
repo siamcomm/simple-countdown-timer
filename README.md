@@ -16,7 +16,7 @@ The project comes with its own CSS file, but you are welcome to create your own.
 
 If you are using the default individual elements, also make sure your HTML file contacts the following 'divs' inside the element with the ID of 'countdown' like so.:
 
-	<div class="col-sm-4" id="countdown">
+	<div id="countdown">
 		<div class="cd-item" id="countdowndays"></div>
 		<div class="cd-item"><div class="cd-divider">:</div></div>
 		<div class="cd-item" id="countdownhours"></div>
@@ -54,7 +54,7 @@ If you wish to use this, remove the "// " characters from the beginning of the l
 ### As Individual Values
 This is the default setting in the code and, using the default HTML template, it will output the countdown timer as follows:
 
-	<div class="col-sm-4" id="countdown">
+	<div id="countdown">
 		<div class="cd-item" id="countdowndays">*{ Value for days will be inserted here }*</div>
 		<div class="cd-item"><div class="cd-divider">:</div></div>
 		<div class="cd-item" id="countdownhours">*{ Value for hours will be inserted here }*</div>
