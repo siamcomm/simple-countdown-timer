@@ -8,7 +8,7 @@ The project comes with its own CSS file, but you are welcome to create your own.
 
 ## Installation
 1. Download the code from this repository
-2. Copy the script.js file from the 'js' folder to eith er the root folder or another folder where your 'js' files are located
+2. Copy the script.js file to the root folder or another folder where your 'js' files are located
 3. Add this line to the HTML file just before the closing 'body' tag:
 	<script type='text/javascript' src='path/to/your/js/script.js'></script>
 4. Copy the CSS file to your CSS folder or just copy the CSS content to your main CSS file.
